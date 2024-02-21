@@ -7,12 +7,9 @@ function App() {
 
   return (
     <>
-      <h1>Legends Archives</h1>
       <Navbar />
       <RouterProvider router={router}>
-
       </RouterProvider>
-
     </>
   )
 }

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./navbar.css"
-import Logo from "../../assets/Logo.png"
+import Logo from "../../assets/img/Logo.png"
 
 const Navbar = () => {
 
@@ -8,13 +8,12 @@ const Navbar = () => {
 
     return (
         <>
-            <div className={toggle ? "aside show-menu" : "aside"}>
-                <a href="/">
-                    <img src={Logo} alt="Legends Archives Logo" />
+            <div className={toggle ? "sticky show-menu" : "sticky"}>
+                <a href="/" >
+                    <img className="nav_logo" src={Logo} alt="Legends Archives Logo" />
                 </a>
 
                 <nav className="nav">
-
                     <div className="nav-menu">
                         <ul className="nav-list">
 
