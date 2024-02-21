@@ -9,7 +9,7 @@ const Navbar = () => {
     return (
         <>
             <div className={toggle ? "aside show-menu" : "aside"}>
-                <a href="#home">
+                <a href="/">
                     <img src={Logo} alt="Legends Archives Logo" />
                 </a>
 
@@ -20,42 +20,42 @@ const Navbar = () => {
 
                             {/* Home */}
                             <li className="nav-item">
-                                <a href="#">
+                                <a href="/">
                                     Home
                                 </a>
                             </li>
 
                             {/* Champions */}
                             <li className="nav-item">
-                                <a href="#">
+                                <a href="/champions">
                                     Champions
                                 </a>
                             </li>
 
                             {/* Game Mode */}
                             <li className="nav-item">
-                                <a href="#">
+                                <a href="/gamemode">
                                     Game Mode
                                 </a>
                             </li>
 
                             {/* Ranked */}
                             <li className="nav-item">
-                                <a href="#">
+                                <a href="/ranked">
                                     Ranked
                                 </a>
                             </li>
 
                             {/* Summoner */}
                             <li className="nav-item">
-                                <a href="#">
+                                <a href="/summoner">
                                     Summoner
                                 </a>
                             </li>
 
                             {/* Player */}
                             <li className="nav-item">
-                                <a href="#">
+                                <a href="/player">
                                     Player
                                 </a>
                             </li>
@@ -66,9 +66,9 @@ const Navbar = () => {
                 </nav>
             </div>
 
-            <div className={toggle ? "nav_toggle nav_toggle-open" : "nav_toggle"} onClick={() => showMenu(!toggle)}>
+            {/* <div className={toggle ? "nav_toggle nav_toggle-open" : "nav_toggle"} onClick={() => showMenu(!toggle)}>
                 <i className="icon-menu"></i>
-            </div>
+            </div> */}
 
         </>
     )

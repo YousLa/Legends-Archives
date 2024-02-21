@@ -1,14 +1,18 @@
-import { useState } from 'react'
 import './App.css'
+import { RouterProvider } from 'react-router-dom'
+import router from './routes/routes'
 import Navbar from './components/navbar/Navbar'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       <h1>Legends Archives</h1>
       <Navbar />
+      <RouterProvider router={router}>
+
+      </RouterProvider>
+
     </>
   )
 }
