@@ -6,6 +6,7 @@ import GameMode from "../components/gameMode/GameMode";
 import NotFound from "../components/notFound/NotFound";
 import Ranked from "../components/ranked/Ranked";
 import Summoner from "../components/summoner/Summoner";
+import Player from "../components/player/Player";
 
 const router = createBrowserRouter([
     {
@@ -31,7 +32,7 @@ const router = createBrowserRouter([
     },
     {
         path: "ranked",
-        element: <GameMode />
+        element: <Ranked />
     },
     {
         path: "summoner",
