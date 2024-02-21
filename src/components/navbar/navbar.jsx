@@ -1,6 +1,6 @@
+import { useState } from "react";
 import "./navbar.css"
 import Logo from "../../assets/Logo.png"
-import { useState } from "react";
 
 const Navbar = () => {
 
@@ -74,3 +74,5 @@ const Navbar = () => {
     )
 
 }
+
+export default Navbar
