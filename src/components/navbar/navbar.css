@@ -1,24 +1,38 @@
-nav {
-    background-color: #3a24f0;
-    padding: 10px;
-    text-align: center;
-    width: 100%;
+.fixed {
     position: sticky;
-    top: 0px;
+    left: 0;
+    top: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0), hsla(318, 93%, 21%, 0.614), rgba(0, 0, 0, 0));
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 10;
+    transition: .3s;
 }
 
-nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0px 20px;
-    font-size: 1.3em;
+.nav {
+    width: 80%;
+    margin: auto;
 }
 
-nav a:hover {
-    text-decoration: underline;
+.nav-link {
+    font-size: 1.1rem;
+    text-transform: uppercase;
 }
 
-.nav_logo {
-    width: 150px;
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5rem;
+    justify-content: center;
+}
+
+.link-logo {
+    display: flex;
+}
+
+.nav-logo {
+    width: 70px;
     align-self: center;
 }
