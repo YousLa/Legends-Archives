@@ -8,7 +8,7 @@ const Navbar = () => {
 
     return (
         <>
-            <aside className={toggle ? "aside show-menu" : "aside"}>
+            <div className={toggle ? "aside show-menu" : "aside"}>
                 <a href="#home">
                     <img src={Logo} alt="Legends Archives Logo" />
                 </a>
@@ -64,7 +64,7 @@ const Navbar = () => {
                     </div>
 
                 </nav>
-            </aside>
+            </div>
 
             <div className={toggle ? "nav_toggle nav_toggle-open" : "nav_toggle"} onClick={() => showMenu(!toggle)}>
                 <i className="icon-menu"></i>
