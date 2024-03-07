@@ -8,8 +8,11 @@ function App() {
   return (
     <>
       <Navbar />
-      <RouterProvider router={router}>
-      </RouterProvider>
+      <main className='main'>
+
+        <RouterProvider router={router}>
+        </RouterProvider>
+      </main>
     </>
   )
 }

@@ -1,0 +1,11 @@
+.home-div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.slogan-title {
+    height: 100px;
+    margin: 50px 0 20px 0;
+    align-self: center;
+}
